@@ -1,0 +1,12 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "dependencies": {
+    "chromedriver": "2.16.0",
+    "dalek-browser-ie": "0.0.5",
+    "lodash": "^4.5.1",
+    "nightwatch": "^0.8.9",
+    "phantomjs": "1.9.18",
+    "selenium-server": "2.49.0"
+  }
+}
