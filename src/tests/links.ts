@@ -5,3 +5,5 @@ let tests = {
     client.url(sitemap.home.url)
   }
 };
+
+export = tests;

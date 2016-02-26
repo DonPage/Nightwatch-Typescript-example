@@ -1,12 +1,12 @@
 var nw = {
-    src_folders: ['./tests'],
+    src_folders: ['./src/tests'],
     output_folder: './results',
     //custom_assertions_path: './assertions',
     //
     //
     //custom_commands_path: './commands',
     //page_objects_path: './components',
-    globals_path: './src/config/',
+    globals_path: './src/config/environment',
     live_output: true,
     selenium: {
         start_process: true,

@@ -4,4 +4,5 @@ var tests = {
         client.url(sitemap_1.default.home.url);
     }
 };
-//# sourceMappingURL=navigation.js.map
+module.exports = tests;
+//# sourceMappingURL=links.js.map

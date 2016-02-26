@@ -1,0 +1,19 @@
+13:54:44.312 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
+Setting system property webdriver.ie.driver to ./node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe
+13:54:44.349 INFO - Java: Oracle Corporation 24.79-b02
+13:54:44.349 INFO - OS: Mac OS X 10.11.3 x86_64
+13:54:44.362 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+13:54:44.440 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+13:54:44.441 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+13:54:44.441 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:54:44.441 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:54:44.521 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:54:44.521 INFO - Selenium Server is up and running
+13:54:44.870 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Navigation}]])
+13:54:44.885 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Navigation}]
+13:54:48.631 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Navigation}]]
+13:54:48.651 INFO - Executing: [get: http://staging.prpl.rs])
+13:54:56.115 INFO - Done: [get: http://staging.prpl.rs]
