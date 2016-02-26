@@ -1,13 +1,14 @@
 interface it {
   should: String;
-  func: Function;
+  //func: Function;
 }
 
 export interface Interface {
   selector: String;
   description: String;
-  goals: [it];
+  it: [it];
   elements: Object;
+  commands: Object;
 }
 
 
