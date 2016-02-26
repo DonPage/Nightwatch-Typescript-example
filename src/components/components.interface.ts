@@ -6,9 +6,9 @@ interface it {
 export interface Interface {
   selector: String;
   description: String;
-  it: [it];
-  elements: Object;
-  commands: Object;
+  //it: [it];
+  elements: any;
+  commands: any;
 }
 
 

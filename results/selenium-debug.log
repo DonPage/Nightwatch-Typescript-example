@@ -1,19 +1,27 @@
-13:54:44.312 INFO - Launching a standalone Selenium Server
+16:33:21.840 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
 Setting system property webdriver.ie.driver to ./node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe
-13:54:44.349 INFO - Java: Oracle Corporation 24.79-b02
-13:54:44.349 INFO - OS: Mac OS X 10.11.3 x86_64
-13:54:44.362 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
-13:54:44.440 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+16:33:21.887 INFO - Java: Oracle Corporation 24.79-b02
+16:33:21.888 INFO - OS: Mac OS X 10.11.3 x86_64
+16:33:21.900 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+16:33:21.979 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-13:54:44.441 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+16:33:21.979 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-13:54:44.441 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-13:54:44.441 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-13:54:44.521 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-13:54:44.521 INFO - Selenium Server is up and running
-13:54:44.870 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Navigation}]])
-13:54:44.885 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Navigation}]
-13:54:48.631 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Navigation}]]
-13:54:48.651 INFO - Executing: [get: http://staging.prpl.rs])
-13:54:56.115 INFO - Done: [get: http://staging.prpl.rs]
+16:33:21.979 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:33:21.979 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:33:22.079 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:33:22.079 INFO - Selenium Server is up and running
+16:33:22.440 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]])
+16:33:22.454 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]
+16:33:25.903 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]]
+16:33:25.923 INFO - Executing: [get: http://staging.prpl.rs])
+16:33:34.028 INFO - Done: [get: http://staging.prpl.rs]
+16:33:34.042 INFO - Executing: [find elements: By.cssSelector: body])
+16:33:34.346 INFO - Done: [find elements: By.cssSelector: body]
+16:33:34.355 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (5599adaa-d5a8-d740-bd36-858ca9b97170)] -> css selector: body]])
+16:33:34.474 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (5599adaa-d5a8-d740-bd36-858ca9b97170)] -> css selector: body]]
+16:33:34.485 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+16:33:34.507 INFO - Done: [find element: By.cssSelector: a.hamburger]
+16:33:34.515 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (5599adaa-d5a8-d740-bd36-858ca9b97170)] -> css selector: a.hamburger]])
+16:33:34.977 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (5599adaa-d5a8-d740-bd36-858ca9b97170)] -> css selector: a.hamburger]]
