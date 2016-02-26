@@ -1,6 +1,5 @@
 export =  {
   urls: {
-    homepage: 'http://staging.prpl.rs/'
+    homepage: 'http://staging.prpl.rs'
   },
-
 };
