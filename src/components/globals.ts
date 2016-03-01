@@ -10,13 +10,17 @@ export const NavBar: Interface = {
   //],
 
   elements: {
-    hamMenu: {selector: 'a.hamburger'},
-    logo: {selector: 'a.prpl-badge'}
+    hamMenu: 'a.hamburger',
+    logo: 'a.prpl-badge'
   },
 
   commands: {
-    openNavMenu: client => client.click(NavBar.elements.hamMenu.selector),
-    goHomePage: client => client.click(NavBar.elements.logo.selector)
+    openNavMenu: client => {
+      client.click(NavBar.elements.hamMenu)
+        .pause(1000)
+        .assert.visible(NavMenu.selector);
+    },
+    goHomePage: client => client.click(NavBar.elements.logo)
   },
 
 };
@@ -28,7 +32,7 @@ export const NavMenu: Interface = {
   description: 'Holds navigation items.',
 
   elements: {
-    links: {selector: '.the-links'}
+    links: '.the-links'
   },
 
   commands: {
