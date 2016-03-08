@@ -3,15 +3,11 @@ interface it {
   //func: Function;
 }
 
-interface element {
-  [key: string]: string;
-}
-
 export interface Interface {
   selector: string;
   description: string;
   //it: [it];
-  elements: element;
+  elements: { [key: string]: string };
   commands: any;
 }
 
