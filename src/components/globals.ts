@@ -16,11 +16,11 @@ export const NavBar: Interface = {
 
   commands: {
     openNavMenu: client => {
-      client.click(NavBar.elements.hamMenu)
+      client.click(NavBar.elements['hamMenu'])
         .pause(1000)
         .assert.visible(NavMenu.selector);
     },
-    goHomePage: client => client.click(NavBar.elements.logo),
+    goHomePage: client => client.click(NavBar.elements['logo']),
     getAllLinks: client => {
       let elementVal;
       client

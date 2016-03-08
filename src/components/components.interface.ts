@@ -1,13 +1,17 @@
 interface it {
-  should: String;
+  should: string;
   //func: Function;
 }
 
+interface element {
+  [key: string]: string;
+}
+
 export interface Interface {
-  selector: String;
-  description: String;
+  selector: string;
+  description: string;
   //it: [it];
-  elements: any;
+  elements: element;
   commands: any;
 }
 
