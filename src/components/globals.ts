@@ -20,7 +20,12 @@ export const NavBar: Interface = {
         .pause(1000)
         .assert.visible(NavMenu.selector);
     },
-    goHomePage: client => client.click(NavBar.elements.logo)
+    goHomePage: client => client.click(NavBar.elements.logo),
+    getAllLinks: client => {
+      let elementVal;
+      client
+        .getValue('nav.the-links', result => elementVal = result.value)
+    }
   },
 
 };
