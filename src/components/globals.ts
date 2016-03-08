@@ -41,7 +41,11 @@ export const NavMenu: Interface = {
   },
 
   commands: {
-    goAboutPage: client => client.click('//TODO:')
+    clickLink: (client, slug: string, cb= () => {}) => {
+      client.click(`${NavMenu.elements['links']} a[href="${slug}"]`)
+        .waitForElementVisible('body', 5000);
+      return cb();
+    }
   }
 
 };

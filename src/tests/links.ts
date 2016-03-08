@@ -8,7 +8,9 @@ let tests = {
       .url(sitemap.home.url)
       .waitForElementVisible('body', 1000);
 
-    NavBar.commands['goAboutPage'](client);
+    NavBar.commands['openNavMenu'](client);
+    NavMenu.commands['clickLink'](client, '/about', () => client.assert.urlContains(sitemap.about.url));
+    //* Run Test: `nightwatch -c ./Nightwatch.js -e default`
   }
 
 };
