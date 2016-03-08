@@ -8,7 +8,7 @@ let tests = {
       .url(sitemap.home.url)
       .waitForElementVisible('body', 1000);
 
-    NavBar.commands.openNavMenu(client);
+    NavBar.commands['goAboutPage'](client);
   }
 
 };

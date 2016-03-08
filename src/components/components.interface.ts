@@ -8,7 +8,7 @@ export interface Interface {
   description: string;
   //it: [it];
   elements: { [key: string]: string };
-  commands: any;
+  commands: { [key: string]: (client: any, data?: any) => any };
 }
 
 
