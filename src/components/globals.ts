@@ -41,9 +41,9 @@ export const NavMenu: Interface = {
   },
 
   commands: {
-    clickLink: (client, slug: string, cb= () => {}) => {
+    clickLink: (client, slug, cb= () => {}) => {
       client.click(`${NavMenu.elements['links']} a[href="${slug}"]`)
-        .waitForElementVisible('body', 5000);
+        .waitForElementVisible('body', 2500);
       return cb();
     }
   }

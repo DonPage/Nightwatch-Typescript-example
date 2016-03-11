@@ -5,9 +5,9 @@
 
   <testsuite name="links"
     errors="0" failures="0" hostname="" id="" package="links" skipped="0"
-    tests="1" time="57.96" timestamp="Fri, 11 Mar 2016 20:39:43 GMT">
+    tests="1" time="80.26" timestamp="Fri, 11 Mar 2016 21:23:29 GMT">
   
-    <testcase name="Nav Menu Links" time="57.96" assertions="4">
+    <testcase name="Nav Menu Links" time="80.26" assertions="4">
 
     
 

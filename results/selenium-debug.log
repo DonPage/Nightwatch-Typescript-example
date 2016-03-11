@@ -1,43 +1,43 @@
-15:39:43.140 INFO - Launching a standalone Selenium Server
+16:23:29.238 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
 Setting system property webdriver.ie.driver to ./node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe
-15:39:43.198 INFO - Java: Oracle Corporation 24.79-b02
-15:39:43.198 INFO - OS: Mac OS X 10.11.3 x86_64
-15:39:43.214 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
-15:39:43.314 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+16:23:29.274 INFO - Java: Oracle Corporation 24.79-b02
+16:23:29.275 INFO - OS: Mac OS X 10.11.3 x86_64
+16:23:29.285 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+16:23:29.350 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-15:39:43.314 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+16:23:29.350 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-15:39:43.315 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:39:43.315 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-15:39:43.432 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-15:39:43.432 INFO - Selenium Server is up and running
-15:39:43.809 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]])
-15:39:43.825 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]
-15:39:47.570 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]]
-15:39:47.587 INFO - Executing: [get: http://staging.prpl.rs])
-15:40:08.946 INFO - Done: [get: http://staging.prpl.rs]
-15:40:08.964 INFO - Executing: [find elements: By.cssSelector: body])
-15:40:09.075 INFO - Done: [find elements: By.cssSelector: body]
-15:40:09.081 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: body]])
-15:40:09.092 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: body]]
-15:40:09.098 INFO - Executing: [find element: By.cssSelector: a.hamburger])
-15:40:09.115 INFO - Done: [find element: By.cssSelector: a.hamburger]
-15:40:09.125 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: a.hamburger]])
-15:40:09.556 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: a.hamburger]]
-15:40:10.575 INFO - Executing: [find element: By.cssSelector: div.nav-menu])
-15:40:10.635 INFO - Done: [find element: By.cssSelector: div.nav-menu]
-15:40:10.640 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: div.nav-menu]])
-15:40:10.680 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: div.nav-menu]]
-15:40:10.686 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/about"]])
-15:40:10.698 INFO - Done: [find element: By.cssSelector: .the-links a[href="/about"]]
-15:40:10.704 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: .the-links a[href="/about"]]])
-15:40:11.349 INFO - Done: [click: 3 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: .the-links a[href="/about"]]]
-15:40:11.357 INFO - Executing: [find elements: By.cssSelector: body])
-15:40:40.832 INFO - Done: [find elements: By.cssSelector: body]
-15:40:40.843 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: body]])
-15:40:40.881 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (c3111e68-13ad-bc42-9b8c-f7d15a4cc699)] -> css selector: body]]
-15:40:40.895 INFO - Executing: [get current url])
-15:40:40.916 INFO - Done: [get current url]
-15:40:40.936 INFO - Executing: [delete session: 1964e3f4-a741-4eb1-9687-29e82aa63970])
-15:40:41.501 INFO - Done: [delete session: 1964e3f4-a741-4eb1-9687-29e82aa63970]
+16:23:29.350 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:23:29.350 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:23:29.418 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:23:29.418 INFO - Selenium Server is up and running
+16:23:29.709 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]])
+16:23:29.719 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]
+16:23:33.126 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Links}]]
+16:23:33.144 INFO - Executing: [get: http://staging.prpl.rs])
+16:24:12.317 INFO - Done: [get: http://staging.prpl.rs]
+16:24:12.340 INFO - Executing: [find elements: By.cssSelector: body])
+16:24:12.471 INFO - Done: [find elements: By.cssSelector: body]
+16:24:12.478 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: body]])
+16:24:12.496 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: body]]
+16:24:12.507 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+16:24:12.529 INFO - Done: [find element: By.cssSelector: a.hamburger]
+16:24:12.533 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: a.hamburger]])
+16:24:12.811 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: a.hamburger]]
+16:24:13.829 INFO - Executing: [find element: By.cssSelector: div.nav-menu])
+16:24:13.867 INFO - Done: [find element: By.cssSelector: div.nav-menu]
+16:24:13.873 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: div.nav-menu]])
+16:24:13.949 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: div.nav-menu]]
+16:24:13.960 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/about"]])
+16:24:13.976 INFO - Done: [find element: By.cssSelector: .the-links a[href="/about"]]
+16:24:13.981 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: .the-links a[href="/about"]]])
+16:24:14.340 INFO - Done: [click: 3 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: .the-links a[href="/about"]]]
+16:24:14.363 INFO - Executing: [find elements: By.cssSelector: body])
+16:24:14.441 INFO - Done: [find elements: By.cssSelector: body]
+16:24:14.450 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: body]])
+16:24:14.725 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (1fe73331-5239-7f42-a132-ce92dabb7ab2)] -> css selector: body]]
+16:24:14.733 INFO - Executing: [get current url])
+16:24:49.558 INFO - Done: [get current url]
+16:24:49.570 INFO - Executing: [delete session: 562b79d1-632f-4a2d-9d67-8aee579e8f7d])
+16:24:49.769 INFO - Done: [delete session: 562b79d1-632f-4a2d-9d67-8aee579e8f7d]
