@@ -1,6 +1,10 @@
 {
   "name": "demo",
   "version": "0.0.0",
+  "scripts": {
+    "start": "nightwatch -c ./nw.js -e default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "chromedriver": "2.16.0",
     "dalek-browser-ie": "0.0.5",

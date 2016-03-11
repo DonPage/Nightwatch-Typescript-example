@@ -3,13 +3,13 @@ import {NavBar, NavMenu} from '../components/globals'
 
 let tests = {
 
-  'Links': client => {
+  'Nav Menu Links': client => {
     client
       .url(sitemap.home.url)
       .waitForElementVisible('body', 1000);
 
     NavBar.commands['openNavMenu'](client);
-    NavMenu.commands['clickLink'](client, '/about', () => client.assert.urlContains(sitemap.about.url));
+    NavMenu.commands['clickLink'](client, '/about', () => client.assert.urlContains(sitemap.about.url).end());
     //* Run Test: `nightwatch -c ./Nightwatch.js -e default`
   }
 
