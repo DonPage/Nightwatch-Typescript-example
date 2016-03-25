@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="links"
-    errors="0" failures="1" hostname="" id="" package="links" skipped="0"
-    tests="1" time="9.185" timestamp="Fri, 25 Mar 2016 15:32:02 GMT">
+    errors="0" failures="0" hostname="" id="" package="links" skipped="0"
+    tests="1" time="14.09" timestamp="Fri, 25 Mar 2016 19:16:52 GMT">
   
-    <testcase name="Nav Menu Links" time="9.185" assertions="2">
-<system-out>[[ATTACHMENT|/Users/donald/WebstormProjects/NW-TS-demo/results/screenshots/links/Nav-Menu-Links_ERROR_Mar-25-2016-113210-GMT-0400.png]]</system-out>
-      <failure message="Testing if element &lt;div.nav-menu&gt; is visible.">    at Object.exports.NavBar.commands.openNavMenu (/Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:17:25)
-    at Object.tests.Nav Menu Links (/Users/donald/WebstormProjects/NW-TS-demo/src/tests/links.js:11:49)
-    at Module.call (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/runner/module.js:63:34)
-    at /Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/runner/testcase.js:97:29
-    at _fulfilled (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/q/q.js:794:54)
-    at self.promiseDispatch.done (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/q/q.js:823:30)
-    at Promise.promise.promiseDispatch (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/q/q.js:756:13)
-    at /Users/donald/WebstormProjects/NW-TS-demo/node_modules/q/q.js:516:49
-    at flush (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/q/q.js:110:17)
-    at _combinedTickCallback (node.js:370:9)</failure>
+    <testcase name="Nav Menu Links" time="14.09" assertions="4">
+
+    
+
+    
+
+    
 
     
     </testcase>

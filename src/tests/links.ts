@@ -1,9 +1,9 @@
 import sitemap from '../misc/sitemap';
-import {Tag} from '../misc/tags';
+import {Tags} from '../misc/tags';
 import {NavBar, NavMenu} from '../components/globals'
-
+console.log('Tags.smoke ', Tags.smoke)
 let tests = {
-  '@tags': [Tag[Tag.smoke], Tag[Tag.currentSprint]],
+  '@tags': [Tags.smoke, Tags.sprint1],
   'Nav Menu Links': client => {
     client
       .url(sitemap.home.url)

@@ -1,3 +1,6 @@
+// import * as Tags from './src/misc/tags';
+
+
 const nw = {
     src_folders: ['./src/tests'],
     output_folder: './results',
@@ -12,6 +15,8 @@ const nw = {
 
     globals_path: './src/config/environment',
     live_output: true,
+
+    // tags: `${Tags.Epics.globals},${Tags.Types.smoke}`,
 
     selenium: {
         start_process: true,

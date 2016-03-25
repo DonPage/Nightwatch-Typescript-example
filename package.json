@@ -2,7 +2,7 @@
   "name": "demo",
   "version": "0.0.0",
   "scripts": {
-    "start": "NODE_ENV=staging nightwatch -c ./nw.js -e chrome",
+    "start": "NODE_ENV=staging nightwatch -c ./nw.js -e chrome --tag 5",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
