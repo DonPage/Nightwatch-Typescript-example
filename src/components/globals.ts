@@ -4,6 +4,10 @@ export class $NavBar {
   selector: string = 'div.nav-bar';
   hamMenu: string = 'a.hamburger';
   logo: string = 'a.prpl-badge';
+
+  goHome() {
+    this.client.click(this.logo);
+  }
 }
 
 export class _NavMenu extends $NavBar {

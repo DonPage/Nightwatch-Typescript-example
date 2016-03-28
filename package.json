@@ -11,6 +11,7 @@
     "lodash": "^4.5.1",
     "nightwatch": "^0.8.9",
     "phantomjs": "1.9.18",
+    "resemblejs": "^2.2.0",
     "selenium-server": "2.49.0"
   }
 }

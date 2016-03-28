@@ -1,6 +1,7 @@
 import sitemap from '../misc/sitemap';
 import {Tags} from '../misc/tags';
 import {$NavBar, _NavMenu} from '../components/globals'
+import {takeScreenshot} from '../commands/takeScreenshot';
 var NavBar;
 var NavMenu;
 
@@ -9,6 +10,7 @@ let tests = {
     NavBar = new $NavBar(client);
     NavMenu = new _NavMenu(client);
   },
+  after: client => client.end(),
 
   '@tags': [Tags.smoke, Tags.sprint1],
 
@@ -20,12 +22,18 @@ let tests = {
 
   'Open Nav': client => {
     NavMenu.open();
-    // NavBar.commands['openNavMenu'](client);
   },
 
   'Goto About Page': client => {
-    NavMenu.clickLink('/about', () => client.assert.urlContains(sitemap.about.url).end());
-    // NavMenu.commands['clickLink'](client, '/about', () => client.assert.urlContains(sitemap.about.url).end());
+    NavMenu.clickLink('/about', () => {
+      client.assert.urlContains(sitemap.about.url);
+      takeScreenshot(client, 'aboutPage', 
+        {key: 'key', value: 'val'},
+        {key: 'param', value: 'value'}
+      );
+    })
+
+
   }
 
 };
