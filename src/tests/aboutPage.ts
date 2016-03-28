@@ -1,7 +1,7 @@
 import sitemap from '../misc/sitemap';
 import {Tags} from '../misc/tags';
 import {$NavBar, _NavMenu} from '../components/globals'
-import {takeScreenshot} from '../commands/takeScreenshot';
+import {takeScreenshot} from '../commands/util.commands';
 var NavBar;
 var NavMenu;
 
