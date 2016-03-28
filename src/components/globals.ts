@@ -1,6 +1,3 @@
-import {Interface} from './components.interface';
-
-
 
 export class $NavBar {
   constructor(public client) {}
