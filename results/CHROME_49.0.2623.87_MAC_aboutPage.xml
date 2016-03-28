@@ -5,17 +5,17 @@
 
   <testsuite name="aboutPage"
     errors="0" failures="0" hostname="" id="" package="aboutPage" skipped="0"
-    tests="3" time="14.58" timestamp="Mon, 28 Mar 2016 20:54:17 GMT">
+    tests="3" time="16.03" timestamp="Mon, 28 Mar 2016 21:05:39 GMT">
   
-    <testcase name="Open Homepage" time="10.41" assertions="1">
+    <testcase name="Open Homepage" time="13.67" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Open Nav" time="0.09900" assertions="0">
+    <testcase name="Open Nav" time="0.06900" assertions="0">
     </testcase>
   
-    <testcase name="Goto About Page" time="4.075" assertions="2">
+    <testcase name="Goto About Page" time="2.297" assertions="2">
 
     
 

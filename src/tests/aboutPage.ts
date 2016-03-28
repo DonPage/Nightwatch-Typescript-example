@@ -10,7 +10,6 @@ let tests = {
     NavBar = new $NavBar(client);
     NavMenu = new _NavMenu(client);
   },
-  beforeEach: client => client.pause(1000),
   after: client => client.end(),
 
   '@tags': [Tags.smoke, Tags.sprint1],
@@ -27,7 +26,7 @@ let tests = {
 
   'Goto About Page': client => {
     NavMenu.clickLink('/about', () => {
-      client.assert.urlContains(sitemap.about.url).perform((client, done) => {
+      client.assert.urlContains(sitemap.about.url).pause(1000).perform((client, done) => {
         takeScreenshot(client, 'aboutPage',
           {key: 'key', value: 'val'},
           {key: 'DATE', value: new Date()}
