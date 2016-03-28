@@ -1,51 +1,27 @@
 import {Interface} from './components.interface';
 
-export const NavBar: Interface = {
-
-  selector: 'div.nav-bar',
-  description: 'Just a nav-bar fool.',
-  //it: [
-  //  {should: 'Open navmenu when hamMenu is clicked.'},
-  //  {should: 'Redirect to homepage when logo is clicked.'}
-  //],
-
-  elements: {
-    hamMenu: 'a.hamburger',
-    logo: 'a.prpl-badge'
-  },
-
-  commands: {
-    openNavMenu: client => {
-      client.click(NavBar.elements['hamMenu'])
-        .pause(1000)
-        .assert.visible(NavMenu.selector);
-    },
-    goHomePage: client => client.click(NavBar.elements['logo']),
-    getAllLinks: client => {
-      let elementVal;
-      client
-        .getValue('nav.the-links', result => elementVal = result.value)
-    }
-  },
-
-};
 
 
-export const NavMenu: Interface = {
+export class $NavBar {
+  constructor(public client) {}
+  selector: string = 'div.nav-bar';
+  hamMenu: string = 'a.hamburger';
+  logo: string = 'a.prpl-badge';
+}
 
-  selector: 'div.nav-menu',
-  description: 'Holds navigation items.',
+export class _NavMenu extends $NavBar {
 
-  elements: {
-    links: '.the-links'
-  },
+  selector: string = 'div.nav-menu';
+  linksWrapper: string = '.the-links';
 
-  commands: {
-    clickLink: (client, slug, cb= () => {}) => {
-      client.click(`${NavMenu.elements['links']} a[href="${slug}"]`)
-        .waitForElementVisible('body', 2500);
-      return cb();
-    }
+  open() {
+    this.client.click(this.hamMenu)
   }
 
-};
+  clickLink(slug: string, cb: Function = () => {}) {
+    this.client.click(`${this.linksWrapper} a[href="${slug}"]`)
+      .waitForElementVisible('body', 2500);
+    return cb();
+  }
+
+}

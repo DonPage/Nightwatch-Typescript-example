@@ -1,45 +1,41 @@
-15:53:51.533 INFO - Launching a standalone Selenium Server
+11:54:28.932 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
 Setting system property webdriver.ie.driver to ./node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe
-15:53:51.608 INFO - Java: Oracle Corporation 24.79-b02
-15:53:51.608 INFO - OS: Mac OS X 10.11.3 x86_64
-15:53:51.629 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
-15:53:51.738 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+11:54:28.968 INFO - Java: Oracle Corporation 24.79-b02
+11:54:28.968 INFO - OS: Mac OS X 10.11.3 x86_64
+11:54:28.978 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+11:54:29.042 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-15:53:51.738 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+11:54:29.043 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-15:53:51.738 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:53:51.738 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-15:53:51.868 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-15:53:51.868 INFO - Selenium Server is up and running
-15:53:52.266 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]])
-15:53:52.286 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]
-Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 47779
+11:54:29.043 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:54:29.043 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:54:29.113 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+11:54:29.114 INFO - Selenium Server is up and running
+11:54:29.425 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]])
+11:54:29.435 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 19961
 Only local connections are allowed.
-15:53:54.079 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]]
-15:53:54.102 INFO - Executing: [get: http://staging.prpl.rs])
-15:54:02.082 INFO - Done: [get: http://staging.prpl.rs]
-15:54:02.096 INFO - Executing: [find elements: By.cssSelector: body])
-15:54:02.176 INFO - Done: [find elements: By.cssSelector: body]
-15:54:02.183 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: body]])
-15:54:02.206 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: body]]
-15:54:02.220 INFO - Executing: [find element: By.cssSelector: a.hamburger])
-15:54:02.298 INFO - Done: [find element: By.cssSelector: a.hamburger]
-15:54:02.306 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: a.hamburger]])
-15:54:02.377 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: a.hamburger]]
-15:54:03.389 INFO - Executing: [find element: By.cssSelector: div.nav-menu])
-15:54:03.411 INFO - Done: [find element: By.cssSelector: div.nav-menu]
-15:54:03.419 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: div.nav-menu]])
-15:54:03.441 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: div.nav-menu]]
-15:54:03.460 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/about"]])
-15:54:03.492 INFO - Done: [find element: By.cssSelector: .the-links a[href="/about"]]
-15:54:03.500 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: .the-links a[href="/about"]]])
-15:54:03.578 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: .the-links a[href="/about"]]]
-15:54:03.598 INFO - Executing: [find elements: By.cssSelector: body])
-15:54:03.662 INFO - Done: [find elements: By.cssSelector: body]
-15:54:03.667 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: body]])
-15:54:03.685 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (36bf69249dff45c97b29081f572b1aa5)] -> css selector: body]]
-15:54:03.692 INFO - Executing: [get current url])
-15:54:03.699 INFO - Done: [get current url]
-15:54:03.707 INFO - Executing: [delete session: 37686cb8-6c8e-4f5a-bccd-bd1a2c0e9943])
-15:54:03.932 INFO - Done: [delete session: 37686cb8-6c8e-4f5a-bccd-bd1a2c0e9943]
+11:54:30.865 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]]
+11:54:30.888 INFO - Executing: [get: http://staging.prpl.rs])
+11:54:42.986 INFO - Done: [get: http://staging.prpl.rs]
+11:54:43.001 INFO - Executing: [find elements: By.cssSelector: body])
+11:54:43.039 INFO - Done: [find elements: By.cssSelector: body]
+11:54:43.046 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: body]])
+11:54:43.060 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: body]]
+11:54:43.070 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+11:54:43.089 INFO - Done: [find element: By.cssSelector: a.hamburger]
+11:54:43.093 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: a.hamburger]])
+11:54:43.129 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: a.hamburger]]
+11:54:43.138 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/about"]])
+11:54:43.187 INFO - Done: [find element: By.cssSelector: .the-links a[href="/about"]]
+11:54:43.194 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: .the-links a[href="/about"]]])
+11:54:43.271 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: .the-links a[href="/about"]]]
+11:54:43.295 INFO - Executing: [find elements: By.cssSelector: body])
+11:54:43.387 INFO - Done: [find elements: By.cssSelector: body]
+11:54:43.398 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: body]])
+11:54:43.531 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (53161bee9761a6f972e5e83d71a74582)] -> css selector: body]]
+11:54:43.538 INFO - Executing: [get current url])
+11:54:43.581 INFO - Done: [get current url]
+11:54:43.587 INFO - Executing: [delete session: d5e75593-a0f2-4e35-86b1-0be032943a18])
+11:54:43.802 INFO - Done: [delete session: d5e75593-a0f2-4e35-86b1-0be032943a18]
