@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="mainNavLinks"
+    errors="0" failures="0" hostname="" id="" package="mainNavLinks" skipped="0"
+    tests="3" time="25.46" timestamp="Tue, 29 Mar 2016 17:16:44 GMT">
+  
+    <testcase name="Open Homepage" time="9.365" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Open Nav" time="2.094" assertions="0">
+    </testcase>
+  
+    <testcase name="Get Nav links and click each one" time="14.01" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

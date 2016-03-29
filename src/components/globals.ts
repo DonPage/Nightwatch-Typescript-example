@@ -17,12 +17,23 @@ export class _NavMenu extends $NavBar {
 
   open() {
     this.client.click(this.hamMenu)
+      .pause(2000);// loading animation.
   }
 
   clickLink(slug: string, cb: Function = () => {}) {
     this.client.click(`${this.linksWrapper} a[href="${slug}"]`)
-      .waitForElementVisible('body', 2500);
-    return cb();
+      .waitForElementVisible('body', 2500)
+      .perform((client, done) => {
+        cb();
+        done();
+      })
+  }
+
+  clickLinkOpenNav(slug: string, cb: Function = () => {}) {
+    this.clickLink(slug, () => {
+      this.open();
+      return cb();
+    });
   }
 
 }

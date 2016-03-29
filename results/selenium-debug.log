@@ -1,43 +1,127 @@
-17:05:38.847 INFO - Launching a standalone Selenium Server
+13:16:44.246 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
 Setting system property webdriver.ie.driver to ./node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe
-17:05:38.894 INFO - Java: Oracle Corporation 24.79-b02
-17:05:38.894 INFO - OS: Mac OS X 10.11.3 x86_64
-17:05:38.904 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
-17:05:38.981 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+13:16:44.290 INFO - Java: Oracle Corporation 24.79-b02
+13:16:44.290 INFO - OS: Mac OS X 10.11.3 x86_64
+13:16:44.300 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+13:16:44.377 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-17:05:38.982 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+13:16:44.378 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-17:05:38.982 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:05:38.982 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:05:39.059 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-17:05:39.059 INFO - Selenium Server is up and running
-17:05:39.358 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]])
-17:05:39.369 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]
-Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 27135
+13:16:44.378 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:16:44.378 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:16:44.471 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:16:44.471 INFO - Selenium Server is up and running
+13:16:44.807 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main Nav Links}]])
+13:16:44.817 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main Nav Links}]
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 23278
 Only local connections are allowed.
-17:05:40.671 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=About Page}]]
-17:05:40.695 INFO - Executing: [get: http://staging.prpl.rs])
-17:05:52.751 INFO - Done: [get: http://staging.prpl.rs]
-17:05:52.762 INFO - Executing: [find elements: By.cssSelector: body])
-17:05:52.798 INFO - Done: [find elements: By.cssSelector: body]
-17:05:52.802 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: body]])
-17:05:52.815 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: body]]
-17:05:52.827 INFO - Executing: [find element: By.cssSelector: a.hamburger])
-17:05:52.847 INFO - Done: [find element: By.cssSelector: a.hamburger]
-17:05:52.851 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: a.hamburger]])
-17:05:52.887 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: a.hamburger]]
-17:05:52.895 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/about"]])
-17:05:52.929 INFO - Done: [find element: By.cssSelector: .the-links a[href="/about"]]
-17:05:52.935 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: .the-links a[href="/about"]]])
-17:05:52.990 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: .the-links a[href="/about"]]]
-17:05:52.998 INFO - Executing: [find elements: By.cssSelector: body])
-17:05:53.062 INFO - Done: [find elements: By.cssSelector: body]
-17:05:53.067 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: body]])
-17:05:53.085 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (cb87bcc6338aa75edd19f15535b98ebc)] -> css selector: body]]
-17:05:53.093 INFO - Executing: [get current url])
-17:05:53.169 INFO - Done: [get current url]
-17:05:54.189 INFO - Executing: [take screenshot])
-17:05:54.961 INFO - Done: [take screenshot]
-17:05:55.194 INFO - Executing: [delete session: 3bd1d1a1-5833-433e-a21a-1a130865c56c])
-17:05:55.424 INFO - Done: [delete session: 3bd1d1a1-5833-433e-a21a-1a130865c56c]
+13:16:46.084 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main Nav Links}]]
+13:16:46.100 INFO - Executing: [get: http://staging.prpl.rs])
+13:16:53.875 INFO - Done: [get: http://staging.prpl.rs]
+13:16:53.885 INFO - Executing: [find elements: By.cssSelector: body])
+13:16:53.924 INFO - Done: [find elements: By.cssSelector: body]
+13:16:53.931 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:16:53.945 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:16:53.956 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:16:53.976 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:16:53.981 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:16:54.036 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:16:56.053 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+            var navItems = $('a[analytics-category="Main Navigation"]');
+            return navItems.map(function (el) {
+                return $(navItems[el]).attr('href');
+            });
+        }.apply(window, passedArgs);, []])
+13:16:56.073 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+            var navItems = $('a[analytics-category="Main Navigation"]');
+            return navItems.map(function (el) {
+                return $(navItems[el]).attr('href');
+            });
+        }.apply(window, passedArgs);, []]
+13:16:56.083 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/about"]])
+13:16:56.099 INFO - Done: [find element: By.cssSelector: .the-links a[href="/about"]]
+13:16:56.104 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/about"]]])
+13:16:56.148 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/about"]]]
+13:16:56.157 INFO - Executing: [find elements: By.cssSelector: body])
+13:16:56.201 INFO - Done: [find elements: By.cssSelector: body]
+13:16:56.205 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:16:56.221 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:16:56.229 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:16:56.263 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:16:56.268 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:16:56.499 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:16:58.510 INFO - Executing: [get current url])
+13:16:58.516 INFO - Done: [get current url]
+13:16:58.522 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/process"]])
+13:16:58.541 INFO - Done: [find element: By.cssSelector: .the-links a[href="/process"]]
+13:16:58.548 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/process"]]])
+13:16:58.588 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/process"]]]
+13:16:58.596 INFO - Executing: [find elements: By.cssSelector: body])
+13:16:58.662 INFO - Done: [find elements: By.cssSelector: body]
+13:16:58.672 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:16:58.683 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:16:58.694 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:16:58.720 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:16:58.727 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:16:58.775 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:17:00.782 INFO - Executing: [get current url])
+13:17:00.787 INFO - Done: [get current url]
+13:17:00.791 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/work"]])
+13:17:00.813 INFO - Done: [find element: By.cssSelector: .the-links a[href="/work"]]
+13:17:00.817 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/work"]]])
+13:17:00.850 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/work"]]]
+13:17:00.855 INFO - Executing: [find elements: By.cssSelector: body])
+13:17:00.889 INFO - Done: [find elements: By.cssSelector: body]
+13:17:00.894 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:17:00.914 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:17:00.922 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:17:00.933 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:17:00.941 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:17:01.179 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:17:03.184 INFO - Executing: [get current url])
+13:17:03.190 INFO - Done: [get current url]
+13:17:03.197 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/notes"]])
+13:17:03.217 INFO - Done: [find element: By.cssSelector: .the-links a[href="/notes"]]
+13:17:03.222 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/notes"]]])
+13:17:03.255 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/notes"]]]
+13:17:03.259 INFO - Executing: [find elements: By.cssSelector: body])
+13:17:03.303 INFO - Done: [find elements: By.cssSelector: body]
+13:17:03.307 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:17:03.315 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:17:03.319 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:17:03.327 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:17:03.334 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:17:03.589 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:17:05.599 INFO - Executing: [get current url])
+13:17:05.604 INFO - Done: [get current url]
+13:17:05.608 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/careers"]])
+13:17:05.627 INFO - Done: [find element: By.cssSelector: .the-links a[href="/careers"]]
+13:17:05.630 INFO - Executing: [click: 6 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/careers"]]])
+13:17:05.666 INFO - Done: [click: 6 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/careers"]]]
+13:17:05.671 INFO - Executing: [find elements: By.cssSelector: body])
+13:17:05.709 INFO - Done: [find elements: By.cssSelector: body]
+13:17:05.727 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:17:05.742 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:17:05.750 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:17:05.768 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:17:05.771 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:17:05.802 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:17:07.810 INFO - Executing: [get current url])
+13:17:07.815 INFO - Done: [get current url]
+13:17:07.824 INFO - Executing: [find element: By.cssSelector: .the-links a[href="/contact"]])
+13:17:07.839 INFO - Done: [find element: By.cssSelector: .the-links a[href="/contact"]]
+13:17:07.843 INFO - Executing: [click: 7 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/contact"]]])
+13:17:07.884 INFO - Done: [click: 7 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: .the-links a[href="/contact"]]]
+13:17:07.889 INFO - Executing: [find elements: By.cssSelector: body])
+13:17:07.924 INFO - Done: [find elements: By.cssSelector: body]
+13:17:07.927 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]])
+13:17:07.940 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: body]]
+13:17:07.946 INFO - Executing: [find element: By.cssSelector: a.hamburger])
+13:17:07.959 INFO - Done: [find element: By.cssSelector: a.hamburger]
+13:17:07.962 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]])
+13:17:08.042 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3fc7738324b1ed04bda29349b22f99a2)] -> css selector: a.hamburger]]
+13:17:10.046 INFO - Executing: [get current url])
+13:17:10.051 INFO - Done: [get current url]
+13:17:10.057 INFO - Executing: [delete session: 3b5d8f36-fc42-45b5-984b-f833eb642771])
+13:17:10.242 INFO - Done: [delete session: 3b5d8f36-fc42-45b5-984b-f833eb642771]

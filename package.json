@@ -6,8 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "async": "^2.0.0-rc.2",
     "chromedriver": "2.16.0",
     "dalek-browser-ie": "0.0.5",
+    "jquery": "^2.2.2",
     "lodash": "^4.5.1",
     "nightwatch": "^0.8.9",
     "phantomjs": "1.9.18",
