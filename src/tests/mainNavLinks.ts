@@ -1,7 +1,6 @@
 import sitemap from '../misc/sitemap';
 import {Tags} from '../misc/tags';
 import {$NavBar, _NavMenu} from '../components/globals'
-import {takeScreenshot} from '../commands/util.commands';
 import * as $ from 'jquery';
 import * as async from 'async'
 var NavBar;
@@ -53,21 +52,7 @@ let tests = {
 
     })
 
-  },
-
-  // 'Goto About Page': client => {
-  //
-  //   NavMenu.clickLink('/about', () => {
-  //     client.assert.urlContains(sitemap.about.url).pause(1000).perform((client, done) => {
-  //       takeScreenshot(client, 'aboutPage',
-  //         {key: 'key', value: 'val'},
-  //         {key: 'DATE', value: new Date()}
-  //       );
-  //       done();
-  //     });
-  //   })
-  //
-  // }
+  }
 
 };
 
