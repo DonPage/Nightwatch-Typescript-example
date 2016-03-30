@@ -19,7 +19,8 @@ let tests = {
   'Open Homepage': client => {
     client
       .url(sitemap.home.url)
-      .waitForElementVisible('body', 1000);
+      .waitForElementVisible(NavBar.hamMenu, 3000)
+      .pause(3000);
   },
 
   'Open Nav': client => {
@@ -27,8 +28,7 @@ let tests = {
   },
 
   'Get Nav links and click each one': client => {
-
-    client.execute(() => {
+    client.waitForElementVisible(NavMenu.selector, 5000).execute(() => {
       var navItems = $('a[analytics-category="Main Navigation"]');
       return navItems.map(function (el) {
         return $(navItems[el]).attr('href')

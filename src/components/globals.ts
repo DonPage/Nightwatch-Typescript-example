@@ -17,7 +17,7 @@ export class _NavMenu extends $NavBar {
 
   open() {
     this.client.click(this.hamMenu)
-      .pause(2000);// loading animation.
+      .waitForElementVisible(this.selector);// loading animation.
   }
 
   clickLink(slug: string, cb: Function = () => {}) {
