@@ -32,7 +32,7 @@ const nw = {
 
     test_settings: {
         default: {
-            launch_url: 'http://localhost',
+            // launch_url: 'http://localhost',
             selenium_host: '127.0.0.1',
             selenium_port: 4444,
             silent: true,
@@ -55,6 +55,13 @@ const nw = {
         //        homepage: "https://encryptyourself.com"
         //    }
         //},
+      
+        firefox: {
+            desiredCapabilities: {
+              browserName: 'firefox',
+              javascriptEnabled: true
+            }
+        },
 
 
         chrome: {

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="3">
+
+  <testsuite name="mainNavLinks"
+    errors="2" failures="1" hostname="" id="" package="mainNavLinks" skipped="0"
+    tests="3" time="32.19" timestamp="Thu, 31 Mar 2016 15:25:30 GMT">
+  
+    <testcase name="Open Homepage" time="21.65" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.the-links a[href=&quot;/&quot;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Open Nav" time="0.7050" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.the-links a[href=&quot;/&quot;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Get Nav links and click each one" time="9.841" assertions="3">
+<system-out>[[ATTACHMENT|/Users/donald/WebstormProjects/NW-TS-demo/results/screenshots/mainNavLinks/Get-Nav-links-and-click-each-one_ERROR_Mar-31-2016-112555-GMT-0400.png]]</system-out>
+    
+
+      <failure message="Timed out while waiting for element &lt;div.nav-menu&gt; to be visible for 6000 milliseconds.">    at _NavMenu.open (/Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:29:14)
+    at /Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:44:19
+    at F.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:36:13)
+    at doneCallback (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/api/client-commands/perform.js:46:16)
+    at _combinedTickCallback (node.js:370:9)
+    at process._tickCallback (node.js:401:11)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.the-links a[href=&quot;/&quot;]&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

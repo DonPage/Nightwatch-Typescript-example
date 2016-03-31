@@ -1,5 +1,4 @@
 import sitemap from '../misc/sitemap';
-import {Tags} from '../misc/tags';
 import {$NavBar, _NavMenu} from '../components/globals'
 import * as $ from 'jquery';
 import * as async from 'async'
@@ -14,7 +13,7 @@ let tests = {
   },
   after: client => client.end(),
 
-  '@tags': [Tags.smoke, Tags.sprint1],
+  '@tags': ['smoke', 'sprint1'],
 
   'Open Homepage': client => {
     client
@@ -31,6 +30,7 @@ let tests = {
     client.waitForElementVisible(NavMenu.selector, 5000).execute(() => {
       var navItems = $('a[analytics-category="Main Navigation"]');
       return navItems.map(function (el) {
+        console.log($(navItems[el]).attr('href'));
         return $(navItems[el]).attr('href')
       });
     }, [], hrefs => {
