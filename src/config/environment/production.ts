@@ -1,5 +1,5 @@
 export =  {
-    urls: {
-        homepage: 'http://purplerockscissors.com'
-    }
+  urls: {
+    homepage: 'http://purplerockscissors.com'
+  }
 };
