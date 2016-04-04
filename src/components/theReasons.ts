@@ -20,7 +20,7 @@ export class $Reasons {
   }
 
   getParagraph(reason: number) {
-
+    
   }
 
 }

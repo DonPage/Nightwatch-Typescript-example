@@ -10,14 +10,15 @@ let tests = {
   before: client => {
     NavBar = new $NavBar(client);
     NavMenu = new _NavMenu(client);
+    client.url(sitemap.home.url)
+      .waitForElementVisible('body.unlocked')
   },
   after: client => client.end(),
 
   '@tags': ['smoke', 'sprint1'],
 
-  'Open Homepage': client => {
+  'Wait for Menu': client => {
     client
-      .url(sitemap.home.url)
       .waitForElementVisible(NavBar.hamMenu, 3000)
       .pause(3000);
   },
