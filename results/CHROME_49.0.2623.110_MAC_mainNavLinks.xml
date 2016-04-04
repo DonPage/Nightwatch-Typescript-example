@@ -5,19 +5,21 @@
 
   <testsuite name="mainNavLinks"
     errors="0" failures="0" hostname="" id="" package="mainNavLinks" skipped="0"
-    tests="3" time="22.98" timestamp="Fri, 01 Apr 2016 20:49:30 GMT">
+    tests="3" time="22.95" timestamp="Mon, 04 Apr 2016 20:23:35 GMT">
   
-    <testcase name="Open Homepage" time="12.97" assertions="1">
+    <testcase name="Wait for Menu" time="12.69" assertions="2">
+
+    
 
     
     </testcase>
   
-    <testcase name="Open Nav" time="0.6770" assertions="1">
+    <testcase name="Open Nav" time="0.6730" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Get Nav links and click each one" time="9.340" assertions="19">
+    <testcase name="Get Nav links and click each one" time="9.583" assertions="19">
 
     
 

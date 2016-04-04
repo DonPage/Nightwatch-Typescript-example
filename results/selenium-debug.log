@@ -1,92 +1,164 @@
-12:14:53.228 INFO - Launching a standalone Selenium Server
+16:24:52.773 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
 Setting system property webdriver.ie.driver to ./node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe
-12:14:53.322 INFO - Java: Oracle Corporation 24.79-b02
-12:14:53.322 INFO - OS: Mac OS X 10.11.3 x86_64
-12:14:53.348 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
-12:14:53.488 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+16:24:52.809 INFO - Java: Oracle Corporation 24.79-b02
+16:24:52.809 INFO - OS: Mac OS X 10.11.3 x86_64
+16:24:52.819 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+16:24:52.891 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-12:14:53.488 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+16:24:52.891 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-12:14:53.488 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-12:14:53.488 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-12:14:53.636 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-12:14:53.636 INFO - Selenium Server is up and running
-12:14:54.256 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Design}]])
-12:14:54.274 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Design}]
-Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 5988
+16:24:52.891 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:24:52.891 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:24:52.974 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:24:52.974 INFO - Selenium Server is up and running
+16:24:53.548 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Design}]])
+16:24:53.548 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Design}]])
+16:24:53.558 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Design}]
+16:24:53.558 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Design}]
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 8028
 Only local connections are allowed.
-12:14:56.555 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Design}]]
-12:14:56.579 INFO - Executing: [get: http://purplerockscissors.com])
-12:15:05.570 INFO - Done: [get: http://purplerockscissors.com]
-12:15:05.583 INFO - Executing: [find elements: By.cssSelector: body.unlocked])
-12:15:05.651 INFO - Done: [find elements: By.cssSelector: body.unlocked]
-12:15:05.656 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (bbdd881eab0434defeac9d7293c429cb)] -> css selector: body.unlocked]])
-12:15:05.676 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (bbdd881eab0434defeac9d7293c429cb)] -> css selector: body.unlocked]]
-12:15:05.680 INFO - Executing: [get: http://purplerockscissors.com/Testing404Page])
-12:15:07.284 INFO - Done: [get: http://purplerockscissors.com/Testing404Page]
-12:15:07.290 INFO - Executing: [find elements: By.cssSelector: body.loaded])
-12:15:07.332 INFO - Done: [find elements: By.cssSelector: body.loaded]
-12:15:07.842 INFO - Executing: [find elements: By.cssSelector: body.loaded])
-12:15:07.862 INFO - Done: [find elements: By.cssSelector: body.loaded]
-12:15:08.367 INFO - Executing: [find elements: By.cssSelector: body.loaded])
-12:15:08.376 INFO - Done: [find elements: By.cssSelector: body.loaded]
-12:15:08.887 INFO - Executing: [find elements: By.cssSelector: body.loaded])
-12:15:08.909 INFO - Done: [find elements: By.cssSelector: body.loaded]
-12:15:08.915 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (bbdd881eab0434defeac9d7293c429cb)] -> css selector: body.loaded]])
-12:15:08.939 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (bbdd881eab0434defeac9d7293c429cb)] -> css selector: body.loaded]]
-12:15:08.953 INFO - Executing: [take screenshot])
-12:15:10.566 INFO - Done: [take screenshot]
-12:15:10.816 INFO - Executing: [get current url])
-12:15:10.837 INFO - Done: [get current url]
-12:15:10.866 INFO - Executing: [delete session: 274e2d0c-e2f2-4f51-8023-ff7c20a6d645])
-12:15:11.224 INFO - Done: [delete session: 274e2d0c-e2f2-4f51-8023-ff7c20a6d645]
-12:15:11.368 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Strategy}]])
-12:15:11.371 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Strategy}]
-Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 11925
+16:24:55.351 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Design}]]
+16:24:55.371 INFO - Executing: [get: http://purplerockscissors.com])
+16:24:57.693 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Design}]]
+16:24:57.710 INFO - Executing: [get: http://purplerockscissors.com])
+16:25:05.059 INFO - Done: [get: http://purplerockscissors.com]
+16:25:05.166 INFO - Executing: [find elements: By.cssSelector: body.unlocked])
+16:25:05.255 INFO - Done: [find elements: By.cssSelector: body.unlocked]
+16:25:05.266 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (b7c4a6d1e5c4085b41da1e2cd03a260b)] -> css selector: body.unlocked]])
+16:25:05.320 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (b7c4a6d1e5c4085b41da1e2cd03a260b)] -> css selector: body.unlocked]]
+16:25:05.333 INFO - Executing: [get: http://purplerockscissors.com/Testing404Page])
+16:25:05.881 INFO - Done: [get: http://purplerockscissors.com]
+16:25:05.919 INFO - Executing: [find elements: By.cssSelector: body.unlocked])
+16:25:06.014 INFO - Done: [find elements: By.cssSelector: body.unlocked]
+16:25:06.020 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (8fd412c7-d17f-ea41-a92d-e5a86d4e04e7)] -> css selector: body.unlocked]])
+16:25:06.053 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (8fd412c7-d17f-ea41-a92d-e5a86d4e04e7)] -> css selector: body.unlocked]]
+16:25:06.066 INFO - Executing: [get: http://purplerockscissors.com/Testing404Page])
+16:25:06.753 INFO - Done: [get: http://purplerockscissors.com/Testing404Page]
+16:25:06.759 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:06.781 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:07.287 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:07.308 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:07.583 INFO - Done: [get: http://purplerockscissors.com/Testing404Page]
+16:25:07.587 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:07.603 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:07.822 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:07.830 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:08.115 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:08.129 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:08.339 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:08.349 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:08.357 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (b7c4a6d1e5c4085b41da1e2cd03a260b)] -> css selector: body.loaded]])
+16:25:08.376 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (b7c4a6d1e5c4085b41da1e2cd03a260b)] -> css selector: body.loaded]]
+16:25:08.391 INFO - Executing: [take screenshot])
+16:25:08.649 INFO - Executing: [find elements: By.cssSelector: body.loaded])
+16:25:08.937 INFO - Done: [find elements: By.cssSelector: body.loaded]
+16:25:08.941 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (8fd412c7-d17f-ea41-a92d-e5a86d4e04e7)] -> css selector: body.loaded]])
+16:25:08.952 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (8fd412c7-d17f-ea41-a92d-e5a86d4e04e7)] -> css selector: body.loaded]]
+16:25:08.958 INFO - Executing: [take screenshot])
+16:25:09.614 INFO - Done: [take screenshot]
+16:25:09.792 INFO - Done: [take screenshot]
+16:25:09.818 INFO - Executing: [get current url])
+16:25:09.872 INFO - Done: [get current url]
+16:25:09.883 INFO - Executing: [delete session: d542cd1d-9022-4bfb-a8b1-ab752474946f])
+16:25:10.086 INFO - Done: [delete session: d542cd1d-9022-4bfb-a8b1-ab752474946f]
+16:25:10.135 INFO - Executing: [get current url])
+16:25:10.141 INFO - Done: [get current url]
+16:25:10.173 INFO - Executing: [delete session: 0bf2c2d0-629b-435b-a6a6-9f1cdfbf33dc])
+16:25:10.385 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Strategy}]])
+16:25:10.387 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Strategy}]
+16:25:10.515 INFO - Done: [delete session: 0bf2c2d0-629b-435b-a6a6-9f1cdfbf33dc]
+16:25:10.655 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Strategy}]])
+16:25:10.656 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Strategy}]
+Starting ChromeDriver 2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961) on port 20139
 Only local connections are allowed.
-12:15:13.783 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Strategy}]]
-12:15:13.798 INFO - Executing: [get: http://purplerockscissors.com])
-12:15:23.190 INFO - Done: [get: http://purplerockscissors.com]
-12:15:23.196 INFO - Executing: [find elements: By.cssSelector: body.unlocked])
-12:15:23.225 INFO - Done: [find elements: By.cssSelector: body.unlocked]
-12:15:23.231 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: body.unlocked]])
-12:15:23.316 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: body.unlocked]]
-12:15:23.329 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.413 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.420 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.500 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.514 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.582 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.587 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.630 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.639 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.664 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.685 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.715 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.724 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.744 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.748 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.761 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.766 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.789 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.793 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.800 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.813 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.859 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.862 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.881 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.890 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.913 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.917 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:23.947 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:23.963 INFO - Executing: [find elements: By.cssSelector: meta])
-12:15:23.983 INFO - Done: [find elements: By.cssSelector: meta]
-12:15:23.991 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name])
-12:15:24.011 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (ddd76f4c691176b30ebf21f66bff6e2c)] -> css selector: meta], name]
-12:15:24.026 INFO - Executing: [get: http://purplerockscissors.com/robots.txt])
-12:15:24.182 INFO - Done: [get: http://purplerockscissors.com/robots.txt]
-12:15:24.189 INFO - Executing: [get current url])
-12:15:24.219 INFO - Done: [get current url]
-12:15:24.255 INFO - Executing: [delete session: 143ada89-6500-41ef-bfc3-19a80a214130])
-12:15:24.402 INFO - Done: [delete session: 143ada89-6500-41ef-bfc3-19a80a214130]
+16:25:12.327 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Strategy}]]
+16:25:12.341 INFO - Executing: [get: http://purplerockscissors.com])
+16:25:14.441 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Strategy}]]
+16:25:14.457 INFO - Executing: [get: http://purplerockscissors.com])
+16:25:21.188 INFO - Done: [get: http://purplerockscissors.com]
+16:25:21.207 INFO - Executing: [find elements: By.cssSelector: body.unlocked])
+16:25:21.396 INFO - Done: [find elements: By.cssSelector: body.unlocked]
+16:25:21.411 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: body.unlocked]])
+16:25:21.560 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: body.unlocked]]
+16:25:21.578 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:21.701 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:21.723 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:21.860 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:21.879 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:22.031 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:22.063 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:22.123 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:22.149 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:22.384 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:22.400 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:22.468 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:22.487 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:22.661 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:22.677 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:22.847 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:22.862 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:22.913 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:22.930 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:22.953 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:22.976 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:23.100 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:23.114 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:23.129 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:23.154 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:23.326 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:23.342 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:23.354 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:23.371 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:23.432 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:23.451 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name])
+16:25:23.498 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (1201042fe966cc64b80cb7d54fdde99a)] -> css selector: meta], name]
+16:25:23.517 INFO - Executing: [get: http://purplerockscissors.com/robots.txt])
+16:25:23.771 INFO - Done: [get: http://purplerockscissors.com/robots.txt]
+16:25:23.789 INFO - Executing: [get current url])
+16:25:23.814 INFO - Done: [get current url]
+16:25:23.832 INFO - Executing: [delete session: 4c80262a-2869-4f32-b194-ad2c36419b16])
+16:25:24.146 INFO - Done: [delete session: 4c80262a-2869-4f32-b194-ad2c36419b16]
+16:25:25.739 INFO - Done: [get: http://purplerockscissors.com]
+16:25:25.746 INFO - Executing: [find elements: By.cssSelector: body.unlocked])
+16:25:25.975 INFO - Done: [find elements: By.cssSelector: body.unlocked]
+16:25:25.983 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: body.unlocked]])
+16:25:26.112 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: body.unlocked]]
+16:25:26.119 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:26.169 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:26.173 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:26.195 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:26.202 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:26.351 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:26.355 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:26.389 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:26.396 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:26.505 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:26.509 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:26.528 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:26.533 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:26.686 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:26.690 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:26.714 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:26.720 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:27.116 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:27.120 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:27.284 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:27.290 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:27.457 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:27.461 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:27.476 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:27.483 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:27.535 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:27.539 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:27.665 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:27.671 INFO - Executing: [find elements: By.cssSelector: meta])
+16:25:27.709 INFO - Done: [find elements: By.cssSelector: meta]
+16:25:27.714 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name])
+16:25:27.751 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (3753fed7-452e-fd41-8fde-3eb545e716d0)] -> css selector: meta], name]
+16:25:27.759 INFO - Executing: [get: http://purplerockscissors.com/robots.txt])
+16:25:28.034 INFO - Done: [get: http://purplerockscissors.com/robots.txt]
+16:25:28.039 INFO - Executing: [get current url])
+16:25:28.049 INFO - Done: [get current url]
+16:25:28.057 INFO - Executing: [delete session: ed82d8ad-e291-4563-9309-962a6cbaf2a9])
+16:25:28.328 INFO - Done: [delete session: ed82d8ad-e291-4563-9309-962a6cbaf2a9]
