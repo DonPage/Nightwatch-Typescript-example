@@ -10,7 +10,7 @@ let tests = {
   before: client => {
     NavBar = new $NavBar(client);
     NavMenu = new _NavMenu(client);
-    client.url(sitemap.home.url)
+    client.url(sitemap.home)
       .waitForElementVisible('body.unlocked')
   },
   after: client => client.end(),

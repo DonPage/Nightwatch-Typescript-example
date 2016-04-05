@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="design"
-    errors="0" failures="0" hostname="" id="" package="design" skipped="0"
-    tests="1" time="16.83" timestamp="Mon, 04 Apr 2016 20:24:53 GMT">
+    errors="0" failures="1" hostname="" id="" package="design" skipped="0"
+    tests="1" time="9.925" timestamp="Tue, 05 Apr 2016 16:50:11 GMT">
   
-    <testcase name="404" time="16.83" assertions="3">
-
+    <testcase name="404" time="9.925" assertions="3">
+<system-out>[[ATTACHMENT|/Users/donald/WebstormProjects/NW-TS-demo/results/screenshots/design/404_ERROR_Apr-05-2016-125019-GMT-0400.png]]</system-out>
     
 
-    
+      <failure message="Testing if the URL contains &quot;404&quot;.">    at F.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/tests/design.js:12:27)
+    at doneCallback (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/api/client-commands/perform.js:46:16)
+    at _combinedTickCallback (node.js:370:9)
+    at process._tickCallback (node.js:401:11)</failure>
 
     
     </testcase>

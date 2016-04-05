@@ -2,7 +2,7 @@
   "name": "demo",
   "version": "0.0.0",
   "scripts": {
-    "start": "NODE_ENV=production nightwatch -c ./nw.js -e chrome,firefox --tag checklist",
+    "start": "NODE_ENV=production nightwatch -c ./nw.js -e chrome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

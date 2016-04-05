@@ -5,14 +5,14 @@
 
   <testsuite name="careerReasons"
     errors="0" failures="0" hostname="" id="" package="careerReasons" skipped="0"
-    tests="2" time="17.82" timestamp="Mon, 04 Apr 2016 20:23:04 GMT">
+    tests="2" time="13.70" timestamp="Tue, 05 Apr 2016 16:49:57 GMT">
   
-    <testcase name="Scroll to Reason Container" time="10.76" assertions="1">
+    <testcase name="Scroll to Reason Container" time="6.966" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Test Refresh Button" time="7.055" assertions="6">
+    <testcase name="Test Refresh Button" time="6.731" assertions="6">
 
     
 

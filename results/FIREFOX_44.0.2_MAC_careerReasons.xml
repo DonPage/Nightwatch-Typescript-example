@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="careerReasons"
+    errors="0" failures="1" hostname="" id="" package="careerReasons" skipped="0"
+    tests="2" time="13.22" timestamp="Mon, 04 Apr 2016 20:32:08 GMT">
+  
+    <testcase name="Scroll to Reason Container" time="12.13" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Refresh Button" time="1.091" assertions="1">  <failure message="Testing if element &lt;div.reason.reason-5&gt; is visible.">    at /Users/donald/WebstormProjects/NW-TS-demo/src/tests/careerReasons.js:24:31
+    at /Users/donald/WebstormProjects/NW-TS-demo/node_modules/async/dist/async.js:2874:20
+    at replenish (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/async/dist/async.js:808:21)
+    at /Users/donald/WebstormProjects/NW-TS-demo/node_modules/async/dist/async.js:818:15
+    at eachLimit (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/async/dist/async.js:2879:35)
+    at Object.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/async/dist/async.js:828:20)
+    at Object.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/tests/careerReasons.js:22:19)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:337:20)
+    at emitTwo (events.js:100:13)
+    at HttpRequest.emit (events.js:185:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

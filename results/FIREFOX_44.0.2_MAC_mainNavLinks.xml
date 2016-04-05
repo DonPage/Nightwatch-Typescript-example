@@ -1,43 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="2"
-            failures="1"
+            failures="0"
             tests="3">
 
   <testsuite name="mainNavLinks"
-    errors="2" failures="1" hostname="" id="" package="mainNavLinks" skipped="0"
-    tests="3" time="32.19" timestamp="Thu, 31 Mar 2016 15:25:30 GMT">
+    errors="2" failures="0" hostname="" id="" package="mainNavLinks" skipped="0"
+    tests="3" time="20.11" timestamp="Mon, 04 Apr 2016 20:31:31 GMT">
   
-    <testcase name="Open Homepage" time="21.65" assertions="1">
+    <testcase name="Wait for Menu" time="17.69" assertions="2">
+
+    
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;.the-links a[href=&quot;/&quot;]&quot; using: css selector
+          Error while running [Main Nav Links / Get Nav links and click each one]:
+
+  TypeError: hrefs.shift is not a function
+    at Object.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/tests/mainNavLinks.js:34:19)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:337:20)
+    at emitTwo (events.js:100:13)
+    at HttpRequest.emit (events.js:185:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:365:15)
+    at emitThree (events.js:110:13)
+    at HttpRequest.emit (events.js:188:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/http/request.js:155:16)
+    at emitNone (events.js:85:20)
+    at IncomingMessage.emit (events.js:179:7)
       </system-err>
   
-    <testcase name="Open Nav" time="0.7050" assertions="1">
+    <testcase name="Open Nav" time="0.8400" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;.the-links a[href=&quot;/&quot;]&quot; using: css selector
+          Error while running [Main Nav Links / Get Nav links and click each one]:
+
+  TypeError: hrefs.shift is not a function
+    at Object.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/tests/mainNavLinks.js:34:19)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:337:20)
+    at emitTwo (events.js:100:13)
+    at HttpRequest.emit (events.js:185:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:365:15)
+    at emitThree (events.js:110:13)
+    at HttpRequest.emit (events.js:188:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/http/request.js:155:16)
+    at emitNone (events.js:85:20)
+    at IncomingMessage.emit (events.js:179:7)
       </system-err>
   
-    <testcase name="Get Nav links and click each one" time="9.841" assertions="3">
-<system-out>[[ATTACHMENT|/Users/donald/WebstormProjects/NW-TS-demo/results/screenshots/mainNavLinks/Get-Nav-links-and-click-each-one_ERROR_Mar-31-2016-112555-GMT-0400.png]]</system-out>
-    
-
-      <failure message="Timed out while waiting for element &lt;div.nav-menu&gt; to be visible for 6000 milliseconds.">    at _NavMenu.open (/Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:29:14)
-    at /Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:44:19
-    at F.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/components/globals.js:36:13)
-    at doneCallback (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/api/client-commands/perform.js:46:16)
-    at _combinedTickCallback (node.js:370:9)
-    at process._tickCallback (node.js:401:11)</failure>
+    <testcase name="Get Nav links and click each one" time="1.579" assertions="1">
 
     
     </testcase>
       <system-err>
-         ERROR: Unable to locate element: &quot;.the-links a[href=&quot;/&quot;]&quot; using: css selector
+          Error while running [Main Nav Links / Get Nav links and click each one]:
+
+  TypeError: hrefs.shift is not a function
+    at Object.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/src/tests/mainNavLinks.js:34:19)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:337:20)
+    at emitTwo (events.js:100:13)
+    at HttpRequest.emit (events.js:185:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/index.js:365:15)
+    at emitThree (events.js:110:13)
+    at HttpRequest.emit (events.js:188:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/donald/WebstormProjects/NW-TS-demo/node_modules/nightwatch/lib/http/request.js:155:16)
+    at emitNone (events.js:85:20)
+    at IncomingMessage.emit (events.js:179:7)
       </system-err>
   
   

@@ -3,7 +3,7 @@ import sitemap from '../misc/sitemap';
 let metaTags = ['description', 'author', 'keywords', 'robots', 'twitter:card', 'twitter:title', 'twitter:description', 'twitter:image'];
 
 let tests = {
-  before: client => client.url(sitemap.home.url).waitForElementVisible('body.unlocked'),
+  before: client => client.url(sitemap.home).waitForElementVisible('body.unlocked'),
   after: client => client.end(),
 
   '@tags': ['checklist'],
@@ -13,7 +13,7 @@ let tests = {
   },
 
   'SEO': client => {
-    client.url(`${sitemap.home.url}/robots.txt`)
+    client.url(`${sitemap.home}/robots.txt`)
       .assert.urlContains('robot')
   }
 

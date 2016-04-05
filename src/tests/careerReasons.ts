@@ -6,7 +6,7 @@ var ReasonsComp;
 
 let tests = {
   before: client => {
-    client.url(sitemap.careers.url).waitForElementVisible('body.unlocked').pause(2000);
+    client.url(sitemap.careers).waitForElementVisible('body.unlocked').pause(2000);
     ReasonsComp = new $Reasons(client);
   },
   after: client => client.end(),
