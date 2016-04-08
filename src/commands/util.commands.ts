@@ -1,13 +1,19 @@
-/**
- * Created by donald on 3/28/16.
- */
 
 var ssDir = './results/screenshots';
 
-export function takeScreenshot(client, title: string, ...params: Array<{key: string, value: any}>) {
+export function takeScreenshot(client, title: string, ...params: Array<Object>) {
+  console.log('params ', params);
   let env = process.env.NODE_ENV;
   let titleMods = `${title}?ENV=${env}`;
-  params.forEach(param => titleMods += `&${param.key}=${param.value}`);
+  return new Promise(resolve => {
+    params.map(val => {
+      for (let i in val) titleMods += `&${i}=${val[i]}`;
+    });
 
-  client.saveScreenshot(`${ssDir}/${titleMods}.png`);
+    client.saveScreenshot(`${ssDir}/${titleMods}.png`)
+      .perform((client, done) => {
+        resolve();
+        done();
+      })
+  });
 }

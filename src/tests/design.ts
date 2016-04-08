@@ -10,9 +10,11 @@ let tests = {
   '404': client => {
     client.url(`${sitemap.home}/Testing404Page`)
       .waitForElementVisible('body.loaded').perform((client, done) => {
-      takeScreenshot(client, '404-Page', {key: 'DATE', value: new Date()});
-      client.assert.urlContains('404');
-      done();
+      takeScreenshot(client, '404-Page', {key: 'DATE', value: new Date()})
+        .then(() => {
+          client.assert.urlContains('404');
+          done();
+        });
     });
 
 
