@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="security"
+    errors="0" failures="0" hostname="" id="" package="security" skipped="0"
+    tests="1" time="10.21" timestamp="Fri, 15 Apr 2016 18:48:13 GMT">
+  
+    <testcase name="Script Injection" time="10.21" assertions="2">
+
+    
+<system-out>[[ATTACHMENT|/Users/donald/WebstormProjects/NW-TS-demo/results/screenshots/security/Script-Injection_ERROR_Apr-15-2016-144822-GMT-0400.png]]</system-out>
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -5,9 +5,9 @@
 
   <testsuite name="strategy"
     errors="0" failures="0" hostname="" id="" package="strategy" skipped="0"
-    tests="2" time="10.61" timestamp="Thu, 14 Apr 2016 21:53:55 GMT">
+    tests="2" time="6.235" timestamp="Fri, 15 Apr 2016 18:45:35 GMT">
   
-    <testcase name="Meta" time="10.21" assertions="9">
+    <testcase name="Meta" time="6.129" assertions="9">
 
     
 
@@ -28,7 +28,7 @@
     
     </testcase>
   
-    <testcase name="SEO" time="0.3980" assertions="1">
+    <testcase name="SEO" time="0.1060" assertions="1">
 
     
     </testcase>
